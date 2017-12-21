@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Nicholas Del Grosso'
 SITENAME = 'PyData Munich'
-SITEURL = 'pydatamunich.github.io'
+SITEURL = ''
 
 PATH = 'content'
 
