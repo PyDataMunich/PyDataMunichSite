@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Nicholas Del Grosso'
+AUTHOR = 'PyData Munich'
 SITENAME = 'PyData Munich'
 SITEURL = ''
 
@@ -22,18 +22,18 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('PyData', 'https://pydata.org'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),
          )
 
 DISPLAY_PAGES_ON_MENU = True
-MENUITEMS = [('Python Docs', 'https://python.org')]
+MENUITEMS = [('Meetup Group', 'https://www.meetup.com/PyData-Munchen/'),
+              ('Github Repos', 'https://github.com/PyDataMunich'),
+]
 
-ABOUT_ME = 'Nick Del Grosso is a Ph.D. student in Neuroscience working at LMU Munich.'
+ABOUT_ME = 'We are a local group that meets regularly throughout Munich to learn data science, incorporating free and accessible tutorials, an engaging community, and delicious pizza and beer. Join us at our next event!'
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('Meetup Group', 'https://www.meetup.com/PyData-Munchen/'),
+#           ('Our Github Repositories', 'https://github.com/PyDataMunich'),)
 
 DEFAULT_PAGINATION = 10
 
