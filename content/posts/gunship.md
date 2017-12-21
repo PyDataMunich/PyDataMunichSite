@@ -3,8 +3,10 @@ slug: firstpost
 category: general
 date: 2017-06-09
 modified: 2017-06-09
+gallery: {photo}logos
 
 # Welcome to PyData Munich!
+
 
 As our little community grows and needs more and more infrastructure, I though a
 centralized web site (written with Python, of course) might make for a nice info

@@ -42,8 +42,22 @@ DEFAULT_PAGINATION = 10
 THEME = './themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
+PHOTO_LIBRARY = "./content/photos" # Absolute path to the folder where the original photos are kept, organized in sub-folders.
+PHOTO_GALLERY = (1024, 768, 80)  # width, height, quality percentage.
+PHOTO_ARTICLE = (760, 506, 80)
+PHOTO_THUMB = (192, 144, 60)
+PHOTO_RESIZE_JOBS = 3
+PHOTO_WATERMARK = True
+PHOTO_WATERMARK_TEXT = SITENAME
+#PHOTO_WATERMARK_IMG = ''
+PHOTO_EXIF_KEEP = True
+PHOTO_EXIF_COPYRIGHT = 'CC-BY-NC-SA'
+# PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Nicholas A. Del Grosso'
+
+
+
 PLUGIN_PATHS = ['../pelican-plugins', ]
-PLUGINS = ['i18n_subsites', ]
+PLUGINS = ['i18n_subsites', 'photos']
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
