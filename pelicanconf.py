@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Nicholas Del Grosso'
-SITENAME = 'Scipy Learning Space'
-SITEURL = ''
+SITENAME = 'PyData Munich'
+SITEURL = 'pydatamunich.github.io'
 
 PATH = 'content'
 
