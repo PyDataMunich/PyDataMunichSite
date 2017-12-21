@@ -80,6 +80,18 @@
                 </h1>
             </header>
 
+
+
+
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+                        {% include "includes/article_info.html" %}
+                    </div>
+                </div>
+                {{ article.content }}
+            </div>
+
             {% if article.photo_gallery %}
                 {% for title, gallery in article.photo_gallery %}
                   <h1>{{ title }}</h1>
@@ -111,17 +123,10 @@
                     </a>
                   </div> <!-- closes carousel-{{ loop.index }} -->
                   {% endfor %}
+              {% elif article.photo_image %}
+                <img src="{{ SITEURL }}/{{ article.photo_image[1] }}" />
               {% endif %}
 
-
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-                        {% include "includes/article_info.html" %}
-                    </div>
-                </div>
-                {{ article.content }}
-            </div>
             <!-- /.entry-content -->
             {% include 'includes/related-posts.html' %}
             {% include 'includes/series.html' %}
