@@ -19,6 +19,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DISPLAY_BREADCRUMBS = False
+
 # Blogroll
 LINKS = (('PyData', 'https://pydata.org'),
          ('Python.org', 'http://python.org/'),
@@ -54,10 +56,10 @@ PHOTO_EXIF_KEEP = True
 PHOTO_EXIF_COPYRIGHT = 'CC-BY-NC-SA'
 # PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Nicholas A. Del Grosso'
 
-
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 PLUGIN_PATHS = ['../pelican-plugins', ]
-PLUGINS = ['i18n_subsites', 'photos']
+PLUGINS = ['i18n_subsites', 'photos', 'tipue_search']
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
