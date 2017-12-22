@@ -3,6 +3,7 @@ slug: parallelize_with_multiprocessing_and_cluster_computing
 category: general
 date: 2017-05-31
 modified: 2017-05-31
+image: {photo}logos/super_python_logo.jpeg
 
 Speaker:
 
@@ -12,16 +13,12 @@ The talk will consist of introduction into parallel programming with simple appl
 
 The topics covered:
 
-• Understanding the concurrency
-
-• Race conditions and how to avoid them
-
-• Basics of the cluster architecture
-
-• Concept of MPI programming
-
-• Python modules: threading, multiprocessing, mpi4py
+  - Understanding the concurrency
+  - Race conditions and how to avoid them
+  - Basics of the cluster architecture
+  - Concept of MPI programming
+  - Python modules: threading, multiprocessing, mpi4py
 
 Total Attendees: 12
-Event Link: https://www.meetup.com/SuperPythonTalks/events/237848824/
 
+Event Link: https://www.meetup.com/SuperPythonTalks/events/237848824/

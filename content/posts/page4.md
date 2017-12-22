@@ -3,6 +3,7 @@ slug: intermediate-level_python_programming
 category: general
 date: 2017-04-19
 modified: 2017-04-19
+image: {photo}logos/super_python_logo.jpeg
 
 Speaker: Achilleas Koutsou
 
@@ -15,5 +16,5 @@ Are you a new Python user that wants to learn what nice tricks the language has 
 We'll help you better understand the parts of Python you probably already know, or introduce you to some aspects of the language you weren't aware of.
 
 Total Attendees: 13
-Event Link: https://www.meetup.com/SuperPythonTalks/events/237848778/
 
+Event Link: https://www.meetup.com/SuperPythonTalks/events/237848778/

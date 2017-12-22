@@ -3,6 +3,7 @@ slug: statistical_analysis_and_modeling_with_scipy-stats
 category: general
 date: 2017-02-22
 modified: 2017-02-22
+image: {photo}logos/super_python_logo.jpeg
 
 Speaker: Ajayrama Kumaraswamy
 
@@ -38,4 +39,3 @@ iii. Significance tests
 
 Total Attendees: 12
 Event Link: https://www.meetup.com/SuperPythonTalks/events/237848686/
-
