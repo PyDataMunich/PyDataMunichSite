@@ -3,6 +3,7 @@ slug: high_performance_data_analysis_with_big_hdf5_files_in_python
 category: general
 date: 2017-12-18
 modified: 2017-12-18
+image: {photo}logos/pydata_logo.png
 
 Speaker: Giacomo Debidda
 
@@ -10,19 +11,12 @@ PyData and Super Python Talks are back with another accessible data science tuto
 
 Schedule:
 
-• 6:30pm: Doors Open
+  - 6:30pm: Doors Open
+  - 7pm: Lighting Talk: TBA
+  - 7:20pm: Tutorial by Giacomo Debidda: High Performance Data Analysis with Big HDF5 Files in Python
+  - 8:15pm-9pm: Job Advertisements and Networking with Beer and Pizza
 
-• 7pm: Lighting Talk: TBA
-
-• 7:20pm: Tutorial by Giacomo Debidda: High Performance Data Analysis with Big HDF5 Files in Python
-
-• 8:15pm-9pm: Job Advertisements and Networking with Beer and Pizza
-
-Many thanks to our sponsor for this event: TNG Consulting (
-
-https://www.tngtech.com/en.html
-
-)!
+Many thanks to our sponsor for this event: TNG Consulting (https://www.tngtech.com/en.html)!
 
 If you are interested in giving a talk or organizing an event, please email one of the organizers (including myself: [masked]) and let me know! If you are looking for inspiration for a talk topic or want to request one, please check out the ever-growing lists of topics here:
 
@@ -33,5 +27,5 @@ See you there!
 -Nick
 
 Total Attendees: 19
-Event Link: https://www.meetup.com/SuperPythonTalks/events/245641511/
 
+Event Link: https://www.meetup.com/SuperPythonTalks/events/245641511/
